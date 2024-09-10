@@ -1,0 +1,48 @@
+.container {
+  background-color: var(--bg-secondary);
+  padding: 16px;
+  border-radius: 4px;
+
+  .textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+
+    .title {
+      color: #05004e;
+      font-size: 1.16rem;
+      font-weight: 700;
+    }
+  }
+
+  .chartContainer {
+    padding: 5px;
+    height: 200px;
+  }
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    div {
+      display: flex;
+      grid-area: 5px;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      span {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+
+      h3 {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+    }
+  }
+}

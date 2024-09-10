@@ -1,0 +1,18 @@
+// DropdownComponent.module.scss
+.dropdown {
+  display: inline-block;
+
+  .select {
+    width: 82px;
+    height: 36px;
+    border-radius: 8px;
+    text-align: center;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    &::-ms-expand {
+      display: none;
+    }
+  }
+}
